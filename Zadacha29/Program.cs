@@ -2,7 +2,9 @@
 //5 -> [1, 2, 5, 7, 19]
 //3 -> [6, 1, 33]
 
-int[] numbers = new int[];
+Console.Write("Введите размер массива: ");
+int size = Convert.ToInt32(Console.ReadLine());
+int[] numbers = new int[size];
 Console.Write("[");
 for (int i = 0; i < numbers.Length; i++)
 {
